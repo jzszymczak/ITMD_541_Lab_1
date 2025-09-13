@@ -23,6 +23,10 @@ header {
 .header-text {
     flex-basis: 100%;
 }
+/* Makes it so when a p tag comes after another p tag inside .header-text you apply this rule */
+.header-text p + p {
+    margin: 2px 0;
+}
 
 header img {
     width: 120px;
