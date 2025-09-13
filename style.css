@@ -1,0 +1,30 @@
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #f0f2f5;
+    height: 80%;
+    font-size: 0.95rem;
+}
+
+.resume-container {
+    width: 70%;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px black;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+}
+/* Stacks together items within a flex item */
+.header-text {
+    flex-basis: 100%;
+}
+
+header img {
+    width: 120px;
+    height: auto;
+}
