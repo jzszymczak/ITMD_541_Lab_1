@@ -5,7 +5,8 @@ body {
 }
 
 .resume-container {
-    width: 55%;
+    width: 80%;
+    max-width: 800px;
     margin: 40px auto;
     padding: 40px;
     border-radius: 12px;
@@ -45,6 +46,15 @@ header img {
     text-align: left;
 }
 
+h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+ul, p {
+  margin-bottom: 15px;
+}
+
 footer {
     text-align: center;
     font-size: 0.85rem;
@@ -55,14 +65,19 @@ footer {
 }
 
 @media (max-width: 600px) {
+    body{
+        font-size: 1rem;
+    }
+
     header {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        gap: 15px;
     }
 
     header img {
-        width: 100px;
+        width: 80px;
     }
     
     .summary-text {
@@ -75,5 +90,11 @@ footer {
 
     .resume-container {
         padding: 20px 15px;
+    }
+
+    a {
+        display: block;
+        text-align: center;
+        padding-bottom: 10px;
     }
 }
